@@ -56,4 +56,7 @@ These variables are set in the `inline_script` item called 'trial_properties'
 9. Change face (on change trials only)
     - trigger msg: `eyetracker.log('start_phase change')`
     - Note that this trigger is sent regardless of whether the face actually changes or not
-10. Sleep 1000 ms (as in Born & THeeuwes, 2010)
+10. Sleep 1000 ms (as in Born & Theeuwes, 2010)
+11. Log all experimental variables to the OpenSesame csv output file (optional, for cross checking)
+12. Log all eye-movement data *and* all experimental variables to the EDF file
+13. Stop recording
