@@ -12,8 +12,6 @@ In the `inline_script` item called 'functions'
 
 In the `inline_script` item called 'constants'
 
-*TODO:* height of the monitor in cm
-
 ## Define trial list
 
 In the block loop (`loop_item` called 'block_loop').
@@ -32,7 +30,7 @@ These variables are set in the `inline_script` item called 'trial_properties'
 
 - Distractor position (pseudorandom, with the restriciton that the distractor should not occur adjacent to the target)
 - Face change (neutral changes to fear and vice versa, but only on change trials)
-- Face stimulus ("F01"-"F04", "M01"-"M04"). *TODO:* drawn with or without replacement?
+- Face stimulus ("F01"-"F04", "M01"-"M04"). Faces are drawn *without replacement*
 - The after-change face is always the same as the before-change face, for example, "F01_FE" changes to "F01_FE" (again, only on face trials)
 
 ## Trial sequence
