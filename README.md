@@ -10,7 +10,9 @@ In the `inline_script` item called 'functions'
 
 ## Define constant variables
 
-In the `inline_script` item called 'constants'
+- In the `inline_script` item called 'constants'
+- To change the size of the stimuli, adjust the variable STIM_SIZE_DG (diamter of the minor axis of the ellipse in visual degrees)
+- To change the eccentricity of the stimuli, adjust the variable DIAMETER_ECC_DG
 
 ## Define trial list
 
@@ -30,7 +32,7 @@ These variables are set in the `inline_script` item called 'trial_properties'
 
 - Distractor position (pseudorandom, with the restriciton that the distractor should not occur adjacent to the target)
 - Face change (neutral changes to fear and vice versa, but only on change trials)
-- Face stimulus ("F01"-"F04", "M01"-"M04"). Faces are drawn *without replacement*
+- Face stimulus ("F01"-"F04", "M01"-"M04"). Faces are drawn *without replacement* such that per position (1-6) all 8 faces (4 male and 4 female) occur equally often.
 - The after-change face is always the same as the before-change face, for example, "F01_FE" changes to "F01_FE" (again, only on face trials)
 
 ## Trial sequence
